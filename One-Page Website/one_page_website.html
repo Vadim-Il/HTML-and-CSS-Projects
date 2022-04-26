@@ -2,160 +2,169 @@
 <html lang="en">
 
 <head>
-<meta charset="utf-8">
-<title>The Art of Cooking</title>
+    <meta charset="utf-8">
+    <title>The Art of Cooking</title>
+    <link rel="stylesheet" href="./css/one_page_website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<style>
-.font_1 {
-color: chocolate;
+    <!-- NAV -->
+    <div class="container">
+        <nav class="navbar">
+            <a class="nav_link" href="#home">Home</a>
+            <a class="nav_link" href="#gallery">Gallery</a>
+            <a class="nav_link" href="#videos">Videos</a>
+            <a class="nav_link" href="#contacts"> Contacts</a>
+        </nav>
+    </div>
 
-}
-</style>
+    <!-- END NAV -->
 
-<!-- NAV -->
+    <!-- HOME -->
+    <div>
+        <div id="home">
+            <h1 class="font_1">The Art of Cooking as a Culinary Art</h1>
+            <p>
+                A culinary art is the art of cooking. Cooking is the process of preparing food and meals that will be
+                eaten
+                or the food served to other people.
+            </p>
+            <p>
+                The word "culinary" is defined as something related to, or connected with, cooking or kitchens. People
+                who
+                are working in the culinary arts are known as culinarians.
+            </p>
+        </div>
+    </div>
+    <!-- END HOME -->
 
-<nav>
+    <!-- GALLERY -->
+    <div>
+        <div id="gallery">
+            <h1 class="font_1">Gallery</h1>
+
+            <!-- PHOTO-1 -->
+            <div class="photo">
+                <img src="./Photos/culinary_1.jpg" alt="Culinary dish No.1" width="600px">
+            </div>
+            <!-- END PHOTO-1 -->
 
 
 
-<ul type="circle">
-<a href="#home"><li>HOME</li></a>
-<a href="#gallery"><li>GALLERY</li></a>
-<a href="#videos"><li>VIDEOS</li></a>
-<a href="#contacts"><li>CONTACTS</li></a>
-</ul>
+            <!-- PHOTO-2 -->
+            <div class="photo">
+                <img src="./Photos/culinary_2.jpg" alt="Culinary dish No.2" width="600px">
+            </div>
+            <!-- END PHOTO-2 -->
 
 
 
-</nav>
+            <!-- PHOTO-3 -->
+            <div class="photo">
+                <img src="./Photos/culinary_3.jpg" alt="Culinary dish No.3" width="600px">
+            </div>
+            <!-- END PHOTO-3 -->
 
-<!-- END NAV -->
 
-<!-- HOME -->
 
-<div id="home">
-<h1 class="font_1">The Art of Cooking as a Culinary Art</h1>
-<p>
-A culinary art is the art of cooking. Cooking is the process of preparing food and meals that will be eaten or the food served to other people.
-</p>
-<p>
-The word "culinary" is defined as something related to, or connected with, cooking or kitchens. People who are working in the culinary arts are known as culinarians.
-</p>
-</div>
+            <!-- PHOTO-4 -->
+            <div class="photo">
+                <img src="./Photos/culinary_4.jpg" alt="Dish decorating 1" width="600px">
+            </div>
+            <!-- END PHOTO-4 -->
 
-<!-- END HOME -->
 
-<!-- GALLERY -->
 
-<div id="gallery">
-<h1 class="font_1">Gallery</h1>
+            <!-- PHOTO-5 -->
+            <div class="photo">
+                <img src="./Photos/culinary_5.jpg" alt="Culinary dish No.4" width="600px">
+            </div>
+            <!-- END PHOTO-5 -->
 
-<!-- PHOTO-1 -->
 
-<img src="./Photos/culinary_1.jpg" alt="Culinary dish No.1" width="600px">
 
-<!-- END PHOTO-1 -->
+            <!-- PHOTO-6 -->
+            <div class="photo">
+                <img src="./Photos/culinary_6.jpg" alt="Dish decorating 2" width="600px">
+            </div>
+            <!-- END PHOTO-6 -->
+        </div>
+    </div>
+    <!-- END GALLERY -->
 
-<br>
+    <!-- VIDEOS -->
+    <div>
+        <div id="videos">
+            <h1 class="font_1">Videos</h1>
 
-<!-- PHOTO-2 -->
+            <h2>There some videos with culinary tips:</h2>
 
-<img src="./Photos/culinary_2.jpg" alt="Culinary dish No.2" width="600px">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/8V-R4f1QXds"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <br>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/ZJy1ajvMU1k"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- END VIDEOS -->
 
-<!-- END PHOTO-2 -->
+    <!-- CONTACTS -->
+    <div>
+        <div id="contacts">
+            <h1 class="font_1">Contact us!</h1>
 
-<br>
+            <p>If you want to contact us with any questions please feel free to send us your message in the form below:
+            </p>
 
-<!-- PHOTO-3 -->
+            <form action="input" method="get">
 
-<img src="./Photos/culinary_3.jpg" alt="Culinary dish No.3" width="600px">
+                <div class="form_group">
+                    <label for="First_name">First name:</label>
+                    <input type="text" id="First_name" placeholder="Enter your name...">
+                </div>
 
-<!-- END PHOTO-3 -->
+                <div class="form_group">
+                    <label for="Last_name">Last name:</label>
+                    <input type="text" id="Last_name" placeholder="Enter your surname...">
+                </div>
 
-<br>
+                <div class="form_group">
+                    <label for="Email">Email:</label>
+                    <input type="email" id="Email" placeholder="Enter your Email...">
+                </div>
 
-<!-- PHOTO-4 -->
+                <div class="form_group">
+                    <label for="Phone_number">Phone number:</label>
+                    <input type="text" id="Phone_number" placeholder="Enter your phone number...">
+                </div>
 
-<img src="./Photos/culinary_4.jpg" alt="Dish decorating 1" width="600px">
+                <div class="form_group">
+                    <label for="Message">Message:</label>
+                    <textarea id="Message" placeholder="Enter your message..."></textarea>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- END CONTACTS -->
 
-<!-- END PHOTO-4 -->
+    <!-- FOOTER -->
+    <div>
+        <footer>
 
-<br>
+            <p>&copy; 2022 The Art of Cooking</p>
 
-<!-- PHOTO-5 -->
-
-<img src="./Photos/culinary_5.jpg" alt="Culinary dish No.4" width="600px">
-
-<!-- END PHOTO-5 -->
-
-<br>
-
-<!-- PHOTO-6 -->
-
-<img src="./Photos/culinary_6.jpg" alt="Dish decorating 2" width="600px"	>
-
-<!-- END PHOTO-6 -->
-</div>
-
-<!-- END GALLERY -->
-
-<!-- VIDEOS -->
-
-<div id="videos">
-<h1 class="font_1">Videos</h1>
-
-<h2>There some videos with culinary <i>tips:</i></h2>
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/8V-R4f1QXds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br>
-<iframe width="640" height="360" src="https://www.youtube.com/embed/ZJy1ajvMU1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<!-- END VIDEOS -->
-
-<!-- CONTACTS -->
-
-<div id="contacts">
-<h1 class="font_1">Contact us!</h1>
-
-<p>If you want to contact us with any questions please feel free to send us your message in the form below:</p>
-
-<form action="" method="get">
-
-<label for="">First name:</label>
-<input type="text" name="First_name" placeholder="Enter your name..."><br>
-
-<label for="">Last name:</label>
-<input type="text" name="Last_name" placeholder="Enter your surname..."><br>
-
-<label for="">Email:</label>
-<input type="email" name="Email" placeholder="Enter your Email..."><br>
-
-<label for="">Phone number:</label>
-<input type="text" name="Phone_number" placeholder="Enter your phone number..."><br>
-
-<label for="">Message:</label><br>
-<textarea placeholder="Enter your message..."></textarea><br>
-
-<input type="submit" value="Send">
-
-</form>
-</div>
-
-<!-- END CONTACTS -->
-
-<!-- FOOTER -->
-
-<footer>
-
-<p>&copy; 2022 The Art of Cooking</p>
-
-</footer>
-
-<!-- END FOOTER -->
+        </footer>
+    </div>
+    <!-- END FOOTER -->
 
 </body>
 

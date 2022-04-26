@@ -1,0 +1,129 @@
+/*=========================================
+ SEPARATE <TAG> STYLES
+ ==========================================*/
+
+body {
+    font-family: serif;
+    font-size: 14px;
+    width: 100%;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Libre Bodoni', serif;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*=========================================
+ HOME SECTION STYLES
+ ==========================================*/
+
+
+.navbar {
+    text-transform: uppercase;
+    position: absolute;
+    margin: 0% auto;
+    z-index: 100;
+}
+
+.nav_link {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: indigo;
+    
+}
+
+#home {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: rgb(206, 213, 187);
+    position: relative;
+    margin: 0px 150px;
+    border-radius: 10%;
+    
+}
+
+/*=========================================
+ GALLERY SECTION STYLES
+ ==========================================*/
+
+#gallery {
+ 
+}
+
+/*=========================================
+ CONTACT SECTION STYLES
+ ==========================================*/
+
+.form_group {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin: 10px;
+
+}
+
+.form_group label {
+    width: 100px;
+    display: inline-block;
+
+
+}
+
+.form_group textarea {
+    width: 200px;
+    border: none;
+    resize: none;
+    border-bottom: 1.5px solid rgb(36, 58, 59);
+    border-radius: 10%;
+    outline: none;
+}
+
+.form_group input {
+    width: 200px;
+    border: none;
+    border-bottom: 1.5px solid rgb(36, 58, 59);
+    border-radius: 10%;
+    outline: none;
+}
+
+
+.form_group ::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+.button input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16x;
+    cursor: pointer;
+    padding: 7px 12px;
+    border: 1px solid rgb(36, 58, 59);
+    border-radius: 15%;
+    margin-left: 120px;
+    background-color: rgb(190, 206, 203);
+    
+}
+
+.button input:hover {
+    background-color: rgb(156, 92, 13);
+    transition: background 1.5s 0s ease-in-out;
+}
+

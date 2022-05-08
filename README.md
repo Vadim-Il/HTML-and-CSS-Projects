@@ -21,4 +21,4 @@ Here you can see the sample websites that I made using HTML and CSS.
 
 <h3>Portfolio Site</h3>
 
-<p>Portfolio Site is a page completed with HTML and CSS which represents brief information about myself. Page uncludes wide amount of CSS styles. Navbar, home screen, images, video, form and footer - all that been stylized with CSS properties.</p>
+<p>Portfolio Site is a page completed with HTML and CSS which represents brief information about myself. Page uncludes wide amount of CSS styles. Navbar, home screen, images, video, form and footer - all that been stylized with CSS properties. Also website is hosted for publicity using GitHub.</p>
